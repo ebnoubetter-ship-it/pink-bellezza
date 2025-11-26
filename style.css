@@ -27,3 +27,41 @@ h2 { text-align:center; color:#d96ea8; margin-bottom:40px; }
 .gallery img { border-radius:12px; width:100%; height:250px; object-fit:cover; }
 
 footer { text-align:center; padding:30px; background:#f6e0ec; margin-top:40px; }
+
+.btn-reserve {
+  display: inline-block;
+  background: #e3799b;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+}
+.btn-reserve:hover {
+  background: #d56a8f;
+}
+
+/* Mise en page de la section Contact */
+.contact {
+  padding: 60px 20px;
+  background: #fbeff3;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: 40px;
+}
+.contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact p {
+  font-size: 16px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+}
+.contact .icon {
+  margin-right: 8px;
+  color: #e3799b;
+}
