@@ -65,3 +65,50 @@ footer { text-align:center; padding:30px; background:#f6e0ec; margin-top:40px; }
   margin-right: 8px;
   color: #e3799b;
 }
+/* Centre le contenu de la réservation */
+.reservation-content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Bouton de réservation élégant */
+.btn-reserve {
+  display: inline-block;
+  background: #4caf50; /* vert doux */
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+}
+.btn-reserve:hover {
+  background: #43a047;
+}
+.whatsapp-btn {
+  display: inline-block;
+  background: #25D366; /* vert WhatsApp */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+}
+.whatsapp-btn:hover {
+  background: #1ebe5d;
+}
+.whatsapp-btn img {
+  margin-right: 8px;
+}
+.phone a {
+  color: #e3799b;
+  font-weight: bold;
+  text-decoration: none;
+}
+.phone a:hover {
+  text-decoration: underline;
+}
+
